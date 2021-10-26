@@ -1,0 +1,36 @@
+
+@media screen and (max-width: 600px) {
+    .banner-section { 
+      display: none;
+    }
+
+    .live-race-section .row4 .content{
+        width: 100% ;
+    }
+    .live-race-section .row2 p{
+        width: 100% ;
+    }
+
+    .live-race-section .live-race .live-race-thumb {
+        width: 100%;
+    }
+    
+    .live-race-section .live-race .live-race-thumb img {
+        max-width: 100% !important;
+    }
+    .live-race-section .row2 h2{
+        width: 100%;
+    }
+    .live-race-section .row4 .blockimg{
+         width: 100%;
+         margin-top: 19px;
+         padding-left:0px;
+    }
+    
+    .navbar-nav li a:hover {
+        color:#000 !important;
+        padding-left:12px;
+        background:#fff;
+        
+    }
+}

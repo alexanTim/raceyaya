@@ -1,0 +1,191 @@
+/*-----------------------Junly css Homepage-----------------------------------------------------*/
+
+
+
+
+/*----------------------JORDAN CSS--------------------------------------------*/
+
+ul.custom-list{
+	padding: 10px 0;
+	margin-bottom: 0;
+}
+
+ul.custom-list li{
+	display: inline-block;
+	border-right: 2px solid #808080;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+
+ul.custom-list li:last-of-type{
+	border-right: none;
+	padding-right: 0;
+	margin-right: 0;
+}
+
+ul.custom-list li a{
+	display: block;
+	color: #808080;
+	line-height: 15px;
+}
+
+ul.custom-list li a:hover{
+	text-decoration: none;
+	color: #64c0ff;
+}
+
+.race-search-wrapper h6{
+	width: 25%;
+	float: left;
+	margin-bottom: 0;
+	font-size: 14px;
+}
+
+.race-search-wrapper form{
+	width: 75%;
+	float: left;
+}
+
+.race-search-wrapper .input-group .selectric-wrapper{
+	width: 85%;
+}
+
+.race-search-wrapper .input-group .input-group-append{
+	width: 15%;
+}
+
+.race-search-wrapper .input-group .input-group-append button{
+	width: 100%;
+}
+
+.race-list-wrapper{
+	margin-top: 50px;
+}
+
+.race-list{
+	box-shadow: 0 10px 10px #f8f8f8;
+	border-bottom: 16px solid #e5e5e5;
+	margin-bottom: 40px;
+}
+
+.race-list figure.figure{
+	width:100%;
+}
+
+.race-list figure img{
+	width: 100%;
+	display: block;
+}
+
+.race-event-details{
+	padding: 15px 10px;
+}
+
+.race-event-details h4{
+	font-weight: 600;
+	color: #4d4d4d;
+	font-size: 16px;
+	margin-bottom: 1em;
+}
+
+.race-event-details p{
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+a.race-details-btn{
+	display: inline-block;
+	color: #FFF;
+	background: #64c0ff;
+	text-align: center;
+	font-weight: 600;
+	padding: 6px 15px;
+	border: 1px solid #64c0ff;
+}
+
+a.race-details-btn:hover{
+	color: #64c0ff;
+	background: transparent;
+	text-decoration: none;
+}
+
+a.register-btn{
+	display: inline-block;
+	color: #FFF;
+	background: #64c0ff;
+	text-align: center;
+	font-weight: 600;
+	padding: 6px 15px;
+	border: 1px solid #64c0ff;
+	font-size: 14px;
+}
+
+a.register-btn:hover{
+	color: #64c0ff;
+	background: transparent;
+	text-decoration: none;
+}
+
+.race-details-wrapper h4{
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.race-details-wrapper p{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.race-details-wrapper ul.social-media{
+	overflow: hidden;
+	display: block;
+	padding: 0;
+}
+
+.race-details-wrapper ul.social-media li{
+	display: inline-block;
+}
+
+.race-details-wrapper ul.social-media li a{
+	display: block;
+	font-size: 14px;
+	color: #FFF;
+	width: 22px;
+	height: 22px;
+	border-radius: 100%;
+	text-align: center;
+	background: #64c0ff;
+}
+
+.race-details-wrapper ul.social-media li.fb a{
+	background: #5371d1;
+}
+
+.race-details-wrapper ul.social-media li.twitter a{
+	background: #55abef;
+}
+
+.race-details-wrapper ul.social-media li.gplus a{
+	background: #808080;
+}
+
+.race-details-wrapper ul.social-media li.insta a{
+	background: #dc4f3a;
+}
+
+a.contact-btn{
+	display: inline-block;
+	color: #FFF;
+	background: #ff8200;
+	text-align: center;
+	font-weight: 600;
+	padding: 6px 15px;
+	border: 1px solid #ff8200;
+	font-size: 14px;
+}
+
+a.contact-btn:hover{
+	color: #ff8200;
+	background: transparent;
+	text-decoration: none;
+}
